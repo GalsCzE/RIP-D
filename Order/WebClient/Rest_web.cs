@@ -12,7 +12,7 @@ namespace Order.WebClient
     public class Rest_web
     {
         public IServiceClient client = new JsonServiceClient("https://student.sps-prosek.cz").WithCache();
-        public List<DOS> getTodos()
+        public List<DOS> getDOS()
         {
             var client = new RestClient("https://student.sps-prosek.cz/~sevcima14/");
 
